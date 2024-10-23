@@ -1,0 +1,50 @@
+###
+POST http://localhost:4000/enable/testapi 
+Content-Type: application/json
+{
+    "url":"http://localhost:8000",
+    "enabled":true
+}
+
+###
+GET http://localhost:4000/testapi/fakeapi
+
+###
+
+GET http://localhost:4000/testapi/hello
+
+###
+
+POST http://localhost:4000/testapi/bogusapi
+
+###
+POST http://localhost:4000/register
+Content-Type: application/json
+
+{
+    "apiName": "testapi",
+    "protocol": "http",
+    "host": "http://localhost",
+    "port": 8001,
+    "url": "http://localhost:8001"
+}
+
+
+###
+POST http://localhost:4000/unregister
+Content-Type: application/json
+
+{
+    "apiName": "testapi",
+    "protocol": "http",
+    "host": "http://localhost",
+    "port": 8000,
+    "url": "http://localhost:8000"
+}
+
+###
+GET http://localhost:4000/registrytest/fakeapi
+
+###
+
+

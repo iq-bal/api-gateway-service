@@ -1,0 +1,18 @@
+{
+  "services": {
+    "testapi": {
+      "index": 0,
+      "instances": [
+        {
+          "apiName": "testapi",
+          "protocol": "http",
+          "host": "localhost",
+          "port": 8000,
+          "url": "http://localhost:8000",
+          "enabled": true
+        }
+      ],
+      "loadBalanceStrategy": "ROUND_ROBIN"
+    }
+  }
+}
