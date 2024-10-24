@@ -306,6 +306,11 @@ successfully enabled/disabled http://localhost:8000 for service testapi
 
 This setup demonstrates a basic **API Gateway** with features like service registration, load balancing, and authentication. The **Fake API Service** provides a simple backend for testing. You can expand this project by adding more services or implementing additional load balancing strategies like **LEAST_USED**.
 
+## Credit
+
+This API Gateway is inspired by the following YouTube playlist:  
+[API Gateway Playlist by CS Student Strategies](https://www.youtube.com/watch?v=lsX2jpd-fd4&list=PLMFjx2r0Yjipjl31vnoFnUt5tnN50SCAb)
+
 ---
 
 This `README.md` will now provide clear and structured documentation for your project. Save this file in the **root** of your project.
